@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mohamed_araby.mediaplayer.MainActivity">
+
+    <TextView
+        android:id="@+id/device_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/rsz_user"
+        android:gravity="center"
+        android:minHeight="52dp"
+        android:paddingLeft="16dp"
+        android:text="@string/myname"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:background="#D7CCC8" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/playlist_mainactivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/ic_playlist_add_black_24dp"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/playlist"
+            android:textColor="@android:color/black"
+
+            />
+
+        <Button
+            android:id="@+id/favourite_mainactivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/ic_favorite_black_24dp"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/favourite"
+            android:textColor="@android:color/black"
+
+
+            />
+
+        <Button
+            android:id="@+id/recently_mainactivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:background="@android:color/white"
+            android:drawableTop="@drawable/ic_recent_actors_black_24dp"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Recently"
+            android:textColor="@android:color/black"
+
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="#D7CCC8" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/ic_skip_previous_black_24dp"
+            android:maxHeight="48dp"
+            android:maxWidth="48dp"
+            android:minHeight="48dp"
+            android:minWidth="48dp" />
+
+        <Button
+            android:id="@+id/playpause_mian_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/ic_play_circle_filled_black_24dp"
+            android:maxHeight="48dp"
+            android:maxWidth="48dp"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/ic_skip_next_black_24dp"
+            android:maxHeight="48dp"
+            android:maxWidth="48dp"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+
+            />
+
+        <Button
+            android:id="@+id/currentplaying_mainactivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/rsz_2currentplaying"
+            android:maxHeight="48dp"
+            android:maxWidth="48dp"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#D7CCC8" />
+
+    <ListView
+        android:id="@+id/songslistviewID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+    </ListView>
+
+
+</LinearLayout>

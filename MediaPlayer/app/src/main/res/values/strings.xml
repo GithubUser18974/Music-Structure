@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Media Player</string>
+    <string name="myname">Mohamed Araby</string>
+    <string name="playlist">playlists</string>
+    <string name="search">search</string>
+    <string name="favourite">Favourite</string>
+    <string name="currentPlaying">Currentely playing</string>
+    <string name="listviewid">listviewid</string>
+    <string name="songnameid">songnameID</string>
+</resources>

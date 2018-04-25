@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mohamed_araby.mediaplayer.RecentlyPlayed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/gotohome_recentplayingactivtity"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="32dp"
+            android:background="@drawable/ic_home_black_24dp"
+
+            />
+
+        <Button
+            android:id="@+id/gotofavourite_recentplayingactivtity"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/ic_favorite_black_24dp"
+
+            />
+
+        <Button
+            android:id="@+id/gotoplaylist_recentplayingactivtity"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/ic_playlist_add_black_24dp"
+
+            />
+
+        <Button
+            android:id="@+id/gotcurrentplaying_recentplayingactivtity"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/rsz_2currentplaying"
+
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lisview_recentlyplayed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mohamed_araby.mediaplayer.Favourite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/gotohome_favouriteactivtity"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="32dp"
+            android:background="@drawable/ic_home_black_24dp"
+
+            />
+
+        <Button
+            android:id="@+id/gotoplaylist_favouriteactivtity"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/ic_playlist_add_black_24dp"
+
+            />
+
+        <Button
+            android:id="@+id/gotorecentplayed_favouriteactivtity"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/ic_recent_actors_black_24dp"
+
+            />
+
+        <Button
+            android:id="@+id/gotcurrentplaying_favouriteactivtity"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/rsz_2currentplaying"
+
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_favourite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+</LinearLayout>
